@@ -1,0 +1,23 @@
+{
+  "name": "testtelegrambot",
+  "version": "1.0.0",
+  "description": "Пробуем создать телеграм бота",
+  "main": "main.js",
+  "scripts": {
+    "start": "BOT_TOKEN=1332299733:AAGSybkp6K7H--k2WeGD0JzRiS_fR5LaKsU node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hij18/testTelegramBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hij18/testTelegramBot/issues"
+  },
+  "homepage": "https://github.com/hij18/testTelegramBot#readme",
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "telegraf": "^3.38.0"
+  }
+}
